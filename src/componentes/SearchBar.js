@@ -2,7 +2,9 @@ import React from 'react'
 
 const SearchBar = props => {
     return (
-        <div><h1>Search Bar</h1></div>
+        <div className='search-bar'>
+            <h1>Search Bar</h1>
+        </div>
     )
 }
 

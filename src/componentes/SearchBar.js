@@ -1,11 +1,16 @@
-import React from 'react'
+import React, {Component} from 'react'
+import {Segment, Input} from 'semantic-ui-react'
 
-const SearchBar = props => {
-    return (
-        <div className='search-bar'>
-            <h1>Search Bar</h1>
-        </div>
-    )
+class SearchBar extends Component {
+    render() {
+        return (
+            <div className='search-bar'>
+                <Segment stacked>
+                    <Input icon='search' size='large' placeholder='Search ...' />
+                </Segment>
+            </div>
+        )
+    }
 }
 
 export default SearchBar

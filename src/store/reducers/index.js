@@ -1,4 +1,4 @@
-import {combineReducers} from 'redux'
+import {combineReducers, createStore} from 'redux'
 
 import busca from './busca'
 

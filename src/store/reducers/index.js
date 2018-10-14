@@ -1,9 +1,11 @@
-import {combineReducers} from 'redux'
+import {combineReducers, createStore} from 'redux'
 
 import busca from './busca'
+import reproduz from './reproduz-video'
 
 const rootReducer = combineReducers({
-    busca
+    busca,
+    reproduz
 })
 
 export default rootReducer

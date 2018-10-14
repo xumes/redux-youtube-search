@@ -6,6 +6,12 @@ import busca from '../store/reducers/busca';
 import {buscaVideo} from '../store/actions/busca-video'
 
 class SearchBar extends Component {
+    constructor(props){
+        super(props)
+
+        //on load
+        this.props.buscaVideo('Xumes Udemy')
+    }
 
     pesquisaTermo = e => {
         if (e.keyCode === 13){
